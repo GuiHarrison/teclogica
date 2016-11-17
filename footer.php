@@ -3,27 +3,27 @@
 			<div class="w-row cont-rodap">
 			  <div class="w-col w-col-3 coluna-rodape">
 				<h4 class="ttulo-rodap">SOLUÇÕES</h4>
-				<a class="tem-rodap" href="<?php echo get_permalink( get_page_by_path('gerenciamento-de-aplicacoes')); ?>">Gerenciamento de Aplicações</a>
-				<a class="tem-rodap" href="<?php echo get_permalink( get_page_by_path('projetos-de-software')); ?>">Projetos de Software</a>
-				<a class="tem-rodap" href="<?php echo get_permalink( get_page_by_path('ti-guard')); ?>">TI.Guard</a>
-				<a class="tem-rodap" href="<?php echo get_permalink( get_page_by_path('projetos-de-infraestrutura')); ?>">Projetos de Infraestrutura</a>
-				<a class="tem-rodap" href="<?php echo get_permalink( get_page_by_path('tv-corporativa')); ?>">TV Corporativa</a>
-				<a class="tem-rodap" href="<?php echo get_permalink( get_page_by_path('telefonia-digital')); ?>">Telefonia Digital</a>
-				<a class="tem-rodap" href="<?php echo get_permalink( get_page_by_path('mobuss-construcao')); ?>">Mobuss Construção</a>
-				<a class="tem-rodap" href="<?php echo get_permalink( get_page_by_path('mobuss-plataforma')); ?>">Plataforma Mobuss</a>
+				<a class="tem-rodap" href="<?php echo get_permalink( get_page('95')); ?>">Gerenciamento de Aplicações</a>
+				<a class="tem-rodap" href="<?php echo get_permalink( get_page('107')); ?>">Projetos de Software</a>
+				<a class="tem-rodap" href="<?php echo get_permalink( get_page('111')); ?>">TI.Guard</a>
+				<a class="tem-rodap" href="<?php echo get_permalink( get_page('106')); ?>">Projetos de Infraestrutura</a>
+				<a class="tem-rodap" href="<?php echo get_permalink( get_page('113')); ?>">TV Corporativa</a>
+				<a class="tem-rodap" href="https://voip.teclogica.com.br">Telefonia Digital</a>
+				<a class="tem-rodap" href="<?php echo get_permalink( get_page('103')); ?>">Mobuss Construção</a>
+				<a class="tem-rodap" href="<?php echo get_permalink( get_page('104')); ?>">Plataforma Mobuss</a>
 			  </div>
 			  <div class="w-col w-col-2 coluna-rodape">
-				<h4 class="ttulo-rodap">CONTEÚDO&nbsp;</h4><a class="tem-rodap" href="<?php echo get_permalink( get_page_by_path('blog')); ?>">Blog</a>
-				<a class="tem-rodap" href="<?php echo get_permalink( get_page_by_path('materiais-educativos')); ?>">Materiais Educativos</a>
-				<a class="tem-rodap" href="<?php echo get_permalink( get_page_by_path('eventos')); ?>">Agenda de Eventos</a>
+				<h4 class="ttulo-rodap">CONTEÚDO&nbsp;</h4><a class="tem-rodap" href="<?php echo get_permalink( get_page('118')); ?>">Blog</a>
+				<a class="tem-rodap" href="<?php echo get_permalink( get_page('102')); ?>">Materiais Educativos</a>
+				<a class="tem-rodap" href="<?php echo get_permalink( get_page('101')); ?>">Agenda de Eventos</a>
 			  </div>
 			  <div class="w-col w-col-3 coluna-rodape">
 				<h4 class="ttulo-rodap">CONTATO</h4><a class="tem-rodap" href="mailto:marketing@teclogica.com.br?subject=Teclógica na Mídia&body=Olá! Vi a página Teclógica na mídia e decidi entrar em contato.">contato@teclogica.com.br</a>
 				<p>+55 (47) 3036-7700</p>
 				<h4 class="ttulo-rodap sobre">SOBRE A TECLÓGICA</h4>
-				<a class="tem-rodap" href="<?php echo get_permalink( get_page_by_path('sobre')); ?>">A Empresa</a>
-				<a class="tem-rodap" href="<?php echo get_permalink( get_page_by_path('trabalhe-conosco')); ?>">Trabalhe Conosco</a>
-				<a class="tem-rodap" href="<?php echo get_permalink( get_page_by_path('na-midia')); ?>">Na Mídia</a>
+				<a class="tem-rodap" href="<?php echo get_permalink( get_page('108')); ?>">A Empresa</a>
+				<a class="tem-rodap" href="<?php echo get_permalink( get_page('112')); ?>">Trabalhe Conosco</a>
+				<a class="tem-rodap" href="<?php echo get_permalink( get_page('105')); ?>">Na Mídia</a>
 				<a class="tem-rodap" href="https://teclogica.com.br/portal_corporativo/" target="_blank">Portal Corporativo</a>
 			  </div>
 			  <div class="w-col w-col-4 rodape-teclogica"><img class="logo-rodap-responsvo" src="<?php echo get_template_directory_uri(); ?>/images/sem-titulo-3-01.svg" width="207">
@@ -58,7 +58,7 @@
 			    };
 			</script>
 
-		<?php } elseif (is_page('ti-guard')) { ?>
+		<?php } elseif (is_page('111')) { ?>
 
 			<script type="text/javascript">
 				window.onload = function() {
@@ -69,7 +69,7 @@
 			    };
 			</script>
 
-		<?php } elseif (is_page('tv-corporativa')) { ?>
+		<?php } elseif (is_page('113')) { ?>
 
 			<script type="text/javascript">
 				window.onload = function() {
@@ -80,7 +80,7 @@
 			    };
 			</script>
 
-		<?php } elseif (is_page('contato')) { ?>
+		<?php } elseif (is_page('100')) { ?>
 
 			<script type="text/javascript">
 				window.onload = function() {
@@ -91,7 +91,7 @@
 			    };
 			</script>
 
-		<?php } elseif (is_page('telefonia-digital')) { ?>
+		<?php } elseif (is_page('110')) { ?>
 
 			<script type="text/javascript">
 				window.onload = function() {
